@@ -1,0 +1,42 @@
+.feed{
+  margin-bottom: 20px;
+  .title{
+    margin-bottom: 20px;
+  }
+  &__blocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  &__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  &__icon{
+
+  }
+  &__description{
+    margin-left: 60px;
+  }
+  &__name{
+    color: #0d0d0d;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  &__subtitle{
+    margin-top: 10px;
+    color: #646464;
+    font-weight: 300;
+    font-size: 14px;
+  }
+  &__text{
+    margin-top: 18px;
+    color: #0d0d0d;
+    font-weight: 300;
+    font-size: 16px;
+  }
+}
