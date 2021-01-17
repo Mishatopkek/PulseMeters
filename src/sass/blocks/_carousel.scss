@@ -22,3 +22,14 @@
     left: auto;
   }
 }
+@media (max-width: 767px)
+{
+  .carousel {
+    &__inner {
+      width: 100%;
+    }
+    img{
+      width: 100%;
+    }
+  }
+}
