@@ -8,10 +8,10 @@ $(document).ready(function () {
         nextArrow: '<button type="button" class="slick-next"><img src="img/carousel/Right.png"" alt=""></button>',
         responsive: [
             {
-                breakpoint: 767,
+                breakpoint: 900,
                 settings: {
-                    autoplay: true,
-                    arrows: false
+                    arrows: false,
+                    autoplay: true
                 }
             }
         ]
